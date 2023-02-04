@@ -1,0 +1,56 @@
+States
+-
+date object FK - Counties.date
+country object
+state object PK
+fips int64
+locationId object 
+actuals.cases float64
+actuals.deaths float64
+actuals.positiveTests float64
+actuals.negativeTests float64
+actuals.contactTracers float64
+actuals.hospitalBeds.capacity float64
+actuals.hospitalBeds.currentUsageTotal float64
+actuals.hospitalBeds.currentUsageCovid float64
+actuals.icuBeds.capacity float64
+actuals.icuBeds.currentUsageTotal float64
+actuals.icuBeds.currentUsageCovid float64
+actuals.newCases float64
+actuals.vaccinesDistributed float64
+actuals.vaccinationsInitiated float64
+actuals.vaccinationsCompleted float64
+actuals.newDeaths float64
+actuals.vaccinesAdministered float64
+actuals.vaccinationsAdditionalDose float64
+actuals.hospitalBeds.weeklyCovidAdmissions float64
+
+Counties
+-
+date object FK - Counties.date
+state object
+county object PK
+fips int64
+locationId object
+actuals.cases float64
+actuals.deaths float64
+actuals.hospitalBeds.capacity float64
+actuals.hospitalBeds.currentUsageTotal float64
+actuals.hospitalBeds.currentUsageCovid float64
+actuals.icuBeds.capacity float64
+actuals.icuBeds.currentUsageTotal  float64
+actuals.icuBeds.currentUsageCovid  float64
+actuals.newCases float64
+actuals.vaccinationsInitiated float64
+actuals.vaccinationsCompleted float64
+actuals.newDeaths float64
+cdcTransmissionLevel int64
+actuals.vaccinationsAdditionalDose float64
+actuals.hsaHospitalBeds.capacity float64
+actuals.hsaHospitalBeds.currentUsageTotal float64
+actuals.hsaHospitalBeds.currentUsageCovid float64
+actuals.hsaIcuBeds.capacity float64
+actuals.hsaIcuBeds.currentUsageTotal float64
+actuals.hsaIcuBeds.currentUsageCovid float64
+actuals.hospitalBeds.weeklyCovidAdmissions float64
+actuals.hsaHospitalBeds.weeklyCovidAdmissions float64
