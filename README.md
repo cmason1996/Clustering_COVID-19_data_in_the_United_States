@@ -19,15 +19,15 @@ This project is divided into three sections:
   - Then we selected our dataset from the website [COVID ActNow](https://apidocs.covidactnow.org), "All states timeseries.csv".   
   - We pulled the API csv file, prepared and analyzed the dataset using a Python Pandas DataFrame in Jupyter Notebook; this included cleaning our data,         setting an index which separated features for our data to be further analyzed. 
 
-Below shows one of the first tables of our cleaned dataset from the original API file.  Once our features were separated and scaled, by using the StandardizedScaler Library, the data was then transitioned into a Principle Component dataframe and ploted by using the 3 principle components as shown below. 
+Below shows one of the first tables of our cleaned dataset from the original API file.  Once our features were separated and scaled, by using the StandardizedScaler Library, the data was then transitioned into a Principle Component dataframe and plotted by using the 3 principle components as shown below. 
   
   ![image](https://user-images.githubusercontent.com/110787194/217718172-f138f107-bfe0-409e-b2be-5eb3281af1c3.png)   ![image](https://user-images.githubusercontent.com/110787194/217718190-3405d908-21a7-42eb-adaa-adae1b814913.png)
 
 Once we wrangled our data, created our connections using Entity Relationship Diagrams (ERD) based on the dataframe above, created a query table using PGAdmin database in Postgres giving a visual table as shown below. 
 
-  ![image](https://user-images.githubusercontent.com/110787194/217718284-2168900b-ce93-4a52-8a1b-d3b2137901cf.png)   ![image](https://user-images.githubusercontent.com/110787194/217718303-dd70bdb4-2d7c-49ab-8b8c-b2857017466d.png)
+  ![image](https://user-images.githubusercontent.com/110787194/217985288-a27cdfe6-5926-461b-bcfe-94205db3765f.png)   ![image](https://user-images.githubusercontent.com/110787194/217718303-dd70bdb4-2d7c-49ab-8b8c-b2857017466d.png)
 
  ### **Conclusion:**
   
-  Based on our analysis so far we have deteremined our features and will continute to analyze our data into the next Section.
+  Based on our analysis so far, we have determined our features and will continue to analyze our data into the next Section.
 
