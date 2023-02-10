@@ -1,4 +1,3 @@
-# **FINAL Project - Predicting COVID 19**
 
 # **FINAL Project - COVID 19**
 
