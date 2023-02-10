@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<img width="1300 height 300" alt="image" src="https://user-images.githubusercontent.com/110787194/216836804-63ba971f-30ab-467c-9228-9857d468dd3d.png">
-
-
 # **FINAL Project - Predicting COVID 19**
 
 # **FINAL Project - COVID 19**
@@ -38,10 +34,3 @@ Once we wrangled our data, created our connections using Entity Relationship Dia
  ### **Conclusion:**
   
   Based on our analysis so far, we have determined our features and will continue to analyze our data into the next Section.
-
-
-=======
-# Final_Project_Repo
-
-## I added a code to clean the states data set and export it to CSV with R if anybody is having trouble with Python/Jupyter. 
->>>>>>> 96898e9e188acb63bfb70463b100ece44b96fa20
