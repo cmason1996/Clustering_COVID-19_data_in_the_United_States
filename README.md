@@ -1,6 +1,6 @@
 <img width="1300 height 300" alt="image" src="https://user-images.githubusercontent.com/110787194/216836804-63ba971f-30ab-467c-9228-9857d468dd3d.png">
 
-# **FINAL Project - Predicting COVID 19**
+# **FINAL Project - COVID 19**
 
 ### Purpose of this Final Project is to find out what clustering data can tell us about COVID-19 in the United States.  
 
