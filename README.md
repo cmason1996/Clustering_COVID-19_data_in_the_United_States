@@ -1,7 +1,7 @@
 
 # **FINAL Project - COVID 19**
 
-### Purpose:###
+### Purpose:
 
 To find out what clustering data can tell us about COVID-19 in the United States.  
 
