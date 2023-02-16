@@ -38,7 +38,12 @@ We are working on a draft of the dashboard in a google slides, which can be view
 We have tested a few unsupervised and supervised machine learning models:
 
 ### Principle component analysis (PCA):
-The actual values for each feature were trained on a PCA, independent of location data. Three clusters were created, and the most significant features were determined using a pairwise comparison of each feature using a pearson's correlation. The data was imported to postgres before analysis on Tableau. 
+The actual values for each feature were trained on a PCA, independent of location data. Three clusters were created, and the most significant features were determined using a pairwise comparison of each feature using a pearson's correlation. The data was imported to postgres before analysis on Tableau.
+
+#### PCA optimization
+Since the clusters were in close proximity to each other in spatial space, a few attempts at optomizing clustering were implimented. 
+1. The first attempt included adding in location data as features
+2. The second attempt involved decreasing the features to only the significantly coorelated features found from the first PCA model.
 
 ### Timeseries Forecasting
 
