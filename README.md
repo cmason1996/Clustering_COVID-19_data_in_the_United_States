@@ -1,7 +1,7 @@
 
 # **FINAL Project - COVID 19**
 
-### Purpose:
+# Purpose:
 
 To find out what clustering data can tell us about COVID-19 in the United States.  
 
@@ -12,7 +12,7 @@ This project is divided into three sections:
 
   - Section 3:  The results of the analysis, recommendations for future analysis, and anything the team would do differently given more time.
 
-### **Section 1:**
+# **Section 1:**
 
   - First we selected our Topic, COVID.
   - Then we selected our dataset from the website [COVID ActNow](https://apidocs.covidactnow.org), "All states timeseries.csv".   
@@ -27,7 +27,7 @@ Once we wrangled our data, created our connections using Entity Relationship Dia
 
   ![image](https://user-images.githubusercontent.com/110787194/217985288-a27cdfe6-5926-461b-bcfe-94205db3765f.png)   ![image](https://user-images.githubusercontent.com/110787194/217718303-dd70bdb4-2d7c-49ab-8b8c-b2857017466d.png)
 
-### **Section 2:**
+# **Section 2:**
 
 The group has completed multiple machine learning models, created the database, and has done some analysis with visuals and plots created in Tableau and python. 
 
@@ -37,10 +37,10 @@ We are working on a draft of the dashboard in a google slides, which can be view
 
 We have tested a few unsupervised and supervised machine learning models:
 
-# Principle component analysis (PCA):
+### Principle component analysis (PCA):
 The actual values for each feature were trained on a PCA, independent of location data. Three clusters were created, and the most significant features were determined using a pairwise comparison of each feature using a pearson's correlation. The data was imported to postgres before analysis on Tableau. 
 
-# Timeseries Forecasting
+### Timeseries Forecasting
 
 A few timeseries forecasting prediction models were tested. Because they are trying to predict a value and the options are not binary, a confusion matrix or accuracy score for each could not be calculated. However, a mean absolute error was calculated for each model, which calculates the difference between the predicted and the observed outcomes. The data for each model was split into three different sets (training, validation, and testing) with plots created for each. The mean absolute error was calculated on the testing data only.
 
