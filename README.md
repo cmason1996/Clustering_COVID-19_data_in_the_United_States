@@ -1,3 +1,6 @@
+<img width="1300 height 300" alt="image" src="https://user-images.githubusercontent.com/110787194/216836804-63ba971f-30ab-467c-9228-9857d468dd3d.png">
+
+
 
 # **FINAL Project - COVID 19**
 
@@ -30,6 +33,13 @@ Once we wrangled our data, created our connections using Entity Relationship Dia
 
   ![image](https://user-images.githubusercontent.com/110787194/217985288-a27cdfe6-5926-461b-bcfe-94205db3765f.png)   ![image](https://user-images.githubusercontent.com/110787194/217718303-dd70bdb4-2d7c-49ab-8b8c-b2857017466d.png)
 
+
+### **Section 2:** (in Progress)
+
+After determining our features, with continued analysis we ...(add target variables...  if successful or not, compiling, training, evaluated...  confusion matrix accuracy score, any variables removed?, which model?)
+
+Database URL: (interactive dashboard)
+
  ### **Conclusion:**
   
-  Based on our analysis so far, we have determined our features and will continue to analyze our data into the next Section.
+  Based on our analysis ..., we have determined ... 
