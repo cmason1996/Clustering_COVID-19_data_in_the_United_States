@@ -47,16 +47,16 @@ Since the clusters were in close proximity to each other in spatial space, a few
 
 ### Timeseries Forecasting
 
-A few timeseries forecasting prediction models were tested. Because they are trying to predict a value and the options are not binary, a confusion matrix or accuracy score for each could not be calculated. However, a mean absolute error was calculated for each model, which calculates the difference between the predicted and the observed outcomes. The data for each model was split into three different sets (training, validation, and testing) with plots created for each. The mean absolute error was calculated on the testing data only.
+* A few timeseries forecasting prediction models were tested. Because they are trying to predict a value and the options are not binary, a confusion matrix or accuracy score for each could not be calculated. However, a mean absolute error was calculated for each model, which calculates the difference between the predicted and the observed outcomes. The data for each model was split into three different sets (training, validation, and testing) with plots created for each. The mean absolute error was calculated on the testing data only.
 
-* Linear Model:
+#### Linear Model:
 
-The linear model is the simplest model, which linearly transforms between the input and output, where the output step only depends on that step. 
+* The linear model is the simplest model, which linearly transforms between the input and output, where the output step only depends on that step. 
 
-* Recurrent Neural Network (RNN)
+#### Recurrent Neural Network (RNN)
 
-A RNN processes a time series step-by-step, allowing previous outputs to be used as inputs while having hidden states that remembers some information about a sequence. It uses the same parameters for each input as it performs the same task on all the inputs or hidden layers to produce the output.
+* A RNN processes a time series step-by-step, allowing previous outputs to be used as inputs while having hidden states that remembers some information about a sequence. It uses the same parameters for each input as it performs the same task on all the inputs or hidden layers to produce the outpu
 
-* Convolution Neural Network (CNN)
+#### Convolution Neural Network (CNN)
 
-The CNN is a deep learning algorithm that takes in an input, assigns importance to various aspects of the input, and differentiates one from the other. It reduces the input to a form that is easier to process without losing features that are good for predictions. The kernel shifts in an elementwise multiplication operation, with a certain stride value until it parses the complete width, then hops down to the same stride value and repeats the process until the entire input is traversed. 
+* The CNN is a deep learning algorithm that takes in an input, assigns importance to various aspects of the input, and differentiates one from the other. It reduces the input to a form that is easier to process without losing features that are good for predictions. The kernel shifts in an elementwise multiplication operation, with a certain stride value until it parses the complete width, then hops down to the same stride value and repeats the process until the entire input is traversed. 
