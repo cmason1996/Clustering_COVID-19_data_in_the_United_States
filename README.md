@@ -1,3 +1,6 @@
+<img width="1300 height 300" alt="image" src="https://user-images.githubusercontent.com/110787194/216836804-63ba971f-30ab-467c-9228-9857d468dd3d.png">
+
+
 
 # **FINAL Project - COVID 19**
 
@@ -26,6 +29,17 @@ Below shows one of the first tables of our cleaned dataset from the original API
 Once we wrangled our data, created our connections using Entity Relationship Diagrams (ERD) based on the dataframe above, created a query table using PGAdmin database in Postgres giving a visual table as shown below. 
 
   ![image](https://user-images.githubusercontent.com/110787194/217985288-a27cdfe6-5926-461b-bcfe-94205db3765f.png)   ![image](https://user-images.githubusercontent.com/110787194/217718303-dd70bdb4-2d7c-49ab-8b8c-b2857017466d.png)
+
+
+
+### **Section 2:** (in Progress)
+
+After determining our features, with continued analysis we ...(add target variables...  if successful or not, compiling, training, evaluated...  confusion matrix accuracy score, any variables removed?, which model?)
+
+Database URL: (interactive dashboard)
+
+ ### **Conclusion:**
+  
 
 # **Section 2:**
 
@@ -74,3 +88,4 @@ Since the clusters were in close proximity to each other in spatial space, a few
 * The CNN is a deep learning algorithm that takes in an input, assigns importance to various aspects of the input, and differentiates one from the other. It reduces the input to a form that is easier to process without losing features that are good for predictions. The kernel shifts in an elementwise multiplication operation, with a certain stride value until it parses the complete width, then hops down to the same stride value and repeats the process until the entire input is traversed. The mean absolute error is 435025.7812
 
 ![image](https://github.com/cmason1996/Final_Project_Repo/blob/main/jenny/plots/timeseriesPrediction_CNN.png)
+
