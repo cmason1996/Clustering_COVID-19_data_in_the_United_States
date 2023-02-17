@@ -39,9 +39,9 @@ We have tested a few unsupervised and supervised machine learning models:
 
 ### Principle component analysis (PCA):
 The actual values for each feature were trained on a PCA, independent of location data. Three clusters were created, and the most significant features were determined using a pairwise comparison of each feature using a pearson's correlation. The data was imported to postgres before analysis on Tableau.
-![PCA 3-D scatterplot](https://github.com/cmason1996/Final_Project_Repo/blob/main/jenny/plots/newplot.png)
+![PCA 3-D scatterplot](https://github.com/cmason1996/Final_Project_Repo/blob/main/jenny/plots/newplot.png "PCA 3-D scatterplot")
 
-![pairwise pearsons coorelation analysis of each feature in class 0](https://github.com/cmason1996/Final_Project_Repo/blob/main/jenny/plots/pairwise_class_0.png)
+![pairwise pearsons coorelation analysis of each feature in class 0](https://github.com/cmason1996/Final_Project_Repo/blob/main/jenny/plots/pairwise_class_0.png "pairwise pearsons coorelation analysis of each feature in class 0")
 
 ![image](https://github.com/cmason1996/Final_Project_Repo/blob/main/jenny/plots/features.png)
 
