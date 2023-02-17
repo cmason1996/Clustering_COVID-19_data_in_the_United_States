@@ -6,6 +6,7 @@
 To find out what clustering data can tell us about COVID-19 in the United States.  
 
 This project is divided into three sections: 
+
   - Section 1:  Selecting a topic for the project, selecting a dataset based on our topic for analysis, clustering data about COVID in the U.S.
 
   - Section 2:  Description of the data exploration and analysis phase of the project, which technologies, languages, tools, and algorithms were used throughout the project.
@@ -15,6 +16,7 @@ This project is divided into three sections:
 # **Section 1:**
 
   - First we selected our Topic, COVID.
+
   - Then we selected our dataset from the website [COVID ActNow](https://apidocs.covidactnow.org), "All states timeseries.csv".   
 
   - We pulled the API csv file, prepared and analyzed the dataset using a Python Pandas DataFrame in Jupyter Notebook; this included cleaning our data, setting an index which separated features for our data to be further analyzed. 
@@ -39,6 +41,7 @@ We have tested a few unsupervised and supervised machine learning models:
 
 ### Principle component analysis (PCA):
 The actual values for each feature were trained on a PCA, independent of location data. Three clusters were created, and the most significant features were determined using a pairwise comparison of each feature using a pearson's correlation. The data was imported to postgres before analysis on Tableau.
+
 ![PCA 3-D scatterplot](https://github.com/cmason1996/Final_Project_Repo/blob/main/jenny/plots/newplot.png)
 
 ![pairwise pearsons coorelation analysis of each feature in class 0](https://github.com/cmason1996/Final_Project_Repo/blob/main/jenny/plots/pairwise_class_0.png)
@@ -48,8 +51,11 @@ The actual values for each feature were trained on a PCA, independent of locatio
 #### PCA optimization
 Since the clusters were in close proximity to each other in spatial space, a few attempts at optomizing clustering were implimented. 
 1. The first attempt included adding in location data as features. There were no noticable differences in clustering 
+
 ![image](https://github.com/cmason1996/Final_Project_Repo/blob/main/jenny/plots/PCA_optimized_wLocation.png)
+
 2. The second attempt involved decreasing the features to only the significantly coorelated features found from the first PCA model. There was a noticable difference in the separation of clusters. There seemed to be more separation between clusters 1 from clusters 2 and 0, but no noticable difference between clusters 0 and 2. 
+
 ![image](https://github.com/cmason1996/Final_Project_Repo/blob/main/jenny/plots/PCA_optimizedFeatures.png)
 
 ### Timeseries Forecasting
