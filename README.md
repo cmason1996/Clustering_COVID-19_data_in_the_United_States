@@ -24,7 +24,7 @@ This project is divided into three sections:
 
 Below shows one of the first tables of our cleaned dataset from the original API file.  Once our features were separated and scaled, by using the StandardizedScaler Library, the data was then transitioned into a Principle Component dataframe and plotted by using the 3 principle components as shown below. 
   
-  ![image](https://github.com/cmason1996/Final_Project_Repo/blob/main/SQLDatabase/States_ERD.png)   ![image](https://github.com/cmason1996/Final_Project_Repo/blob/main/SQLDatabase/classERD.png)
+  ![image](https://github.com/cmason1996/Final_Project_Repo/blob/main/SQLDatabase/States_ERD.png)
 
 Once we wrangled our data, created our connections using Entity Relationship Diagrams (ERD) based on the dataframe above, created a query table using PGAdmin database in Postgres giving a visual table as shown below. 
 
