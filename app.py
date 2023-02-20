@@ -27,6 +27,22 @@ def vis2():
 def vis3():
     return render_template("vis3.html")
 
+# Fourth route
+@app.route("/vis4")
+def vis4():
+    return render_template("vis4.html")
+
+# Fifth route
+@app.route("/vis5")
+def vis5():
+    return render_template("vis5.html")
+
+# Sixth route
+@app.route("/vis6")
+def vis6():
+    return render_template("vis6.html")    
+
 if __name__ == "__main__":
     app.run(debug=True, use_reloader=True)
+
 
