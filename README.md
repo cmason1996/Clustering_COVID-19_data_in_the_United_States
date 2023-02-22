@@ -34,7 +34,7 @@ Once we wrangled our data, created our connections using Entity Relationship Dia
 
 The group has completed multiple machine learning models, created the database, and has done some analysis with visuals and plots created in Tableau and python. 
 
-We are working on a draft of the dashboard in a google slides, which can be viewed [here](https://docs.google.com/presentation/d/1B4qO2vJZSNgvrUMuLoZAHXLGW6Bwc3FtPg9xsuCeNOg/edit#slide=id.p). This draft is being used to help put together the interactive html webpage for the final presentation. 
+We are working on a draft of the dashboard in a google slides, which can be viewed [here](https://docs.google.com/presentation/d/1B4qO2vJZSNgvrUMuLoZAHXLGW6Bwc3FtPg9xsuCeNOg/edit#slide=id.p). This draft is being used to help put together the interactive html webpage for the final presentation which can be viewed [here](https://elissewright.github.io/testapp/homepage.html). 
 
 ## Machine Learning Models:
 
