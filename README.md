@@ -41,7 +41,8 @@ We are working on a draft of the dashboard in a google slides, which can be view
 We have tested a few unsupervised and supervised machine learning models:
 
 ### Principle component analysis (PCA):
-The actual values for each feature were trained on a PCA, independent of location data. Three clusters were created, and the most significant features were determined using a pairwise comparison of each feature using a pearson's correlation. The data was imported to postgres before analysis on Tableau.
+The actual values for each feature were trained on a PCA, independent of location data. Three clusters were created, and the most significant features were determined using a pairwise comparison of each feature using a Pearson's correlation. The data was imported to postgres before analysis on Tableau.
+
 ![PCA 3-D scatterplot](https://github.com/cmason1996/Final_Project_Repo/blob/main/plots/newplot.png "PCA 3-D scatterplot")
 
 ![pairwise pearsons coorelation analysis of each feature in class 0](https://github.com/cmason1996/Final_Project_Repo/blob/main/plots/pairwise_class_0.png "pairwise pearsons coorelation analysis of each feature in class 0")
@@ -50,9 +51,13 @@ The actual values for each feature were trained on a PCA, independent of locatio
 
 #### PCA optimization
 Since the clusters were in close proximity to each other in spatial space, a few attempts at optomizing clustering were implimented. 
+
 1. The first attempt included adding in location data as features. There were no noticable differences in clustering 
+
 ![image](https://github.com/cmason1996/Final_Project_Repo/blob/main/plots/PCA_optimized_wLocation.png)
+
 2. The second attempt involved decreasing the features to only the significantly coorelated features found from the first PCA model. There was a noticable difference in the separation of clusters. There seemed to be more separation between clusters 1 from clusters 2 and 0, but no noticable difference between clusters 0 and 2. 
+
 ![image](https://github.com/cmason1996/Final_Project_Repo/blob/main/plots/PCA_optimizedFeatures.png)
 
 ### Timeseries Forecasting
@@ -77,4 +82,18 @@ Since the clusters were in close proximity to each other in spatial space, a few
 * The CNN is a deep learning algorithm that takes in an input, assigns importance to various aspects of the input, and differentiates one from the other. It reduces the input to a form that is easier to process without losing features that are good for predictions. The kernel shifts in an elementwise multiplication operation, with a certain stride value until it parses the complete width, then hops down to the same stride value and repeats the process until the entire input is traversed. The mean absolute error is 435025.7812
 
 ![image](https://github.com/cmason1996/Final_Project_Repo/blob/main/plots/timeseriesPrediction_CNN.png)
+
+# **Section 3:**
+
+## Outcome
+
+For this project our goal was to see if we could use current COVID-19 data to determine what trends exists and, if any, what they can tell us. To do this we used several differnet means to analyze the data but ultimatly went with PCA clustering as it was revealed to be the most informative and useful to work with. Using PCA was able to tell us that the data does in fact cluster along some intereting features that we each decided to explore on our own. Through the Pearson's correlation we found that there were some features that affecting the clustering of the data more than others, such as vaccinationed initaited and hosipital bed capacity. 
+
+Taking what we learned from out initial analysis, we delved further into the data to see what creating various visuals could tell us of the current trends in covid, our favorite visuals may be found on our dashboard [here](https://elissewright.github.io/testapp/homepage.html). Through exploring the data in Tableau we were able to see that the states with higher populations were the morst affected, which isn't much of a surprise but it is nice to know that our model returns valid results. 
+
+## Future Analysis
+
+
+
+## If We Had More Time
 
