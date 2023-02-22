@@ -87,13 +87,24 @@ Since the clusters were in close proximity to each other in spatial space, a few
 
 ## Outcome
 
-For this project our goal was to see if we could use current COVID-19 data to determine what trends exists and, if any, what they can tell us. To do this we used several differnet means to analyze the data but ultimatly went with PCA clustering as it was revealed to be the most informative and useful to work with. Using PCA was able to tell us that the data does in fact cluster along some intereting features that we each decided to explore on our own. Through the Pearson's correlation we found that there were some features that affecting the clustering of the data more than others, such as vaccinationed initaited and hosipital bed capacity. 
+For this project our goal was to see if we could use current COVID-19 data to determine what trends exist and, if any, what they can tell us. To do this we used several differnet means to analyze the data but ultimately went with PCA clustering as it was revealed to be the most informative and useful to work with. Using PCA was able to tell us that the data does in fact cluster along some interesting features that we each decided to explore further on our own. Through the Pearson's correlation we found that there were some features that affecting the clustering of the data more than others, such as vaccinations initaited and hosipital bed capacity. 
 
-Taking what we learned from out initial analysis, we delved further into the data to see what creating various visuals could tell us of the current trends in covid, our favorite visuals may be found on our dashboard [here](https://elissewright.github.io/testapp/homepage.html). Through exploring the data in Tableau we were able to see that the states with higher populations were the morst affected, which isn't much of a surprise but it is nice to know that our model returns valid results. 
+Taking what we learned from out initial analysis, we delved further into the data to see what creating various visuals could describe of the current trends of COVID-19, our favorite visuals may be found on our dashboard [here](https://elissewright.github.io/testapp/homepage.html). Through exploring the data in Tableau we were able to see that the states with higher populations were the most affected, which isn't much of a surprise but it is nice to know that our model returns valid results. Below is one of our visuals detailing the relationship between vaccinations and cases in all 50 states colored by what class they belong to.
+
+<img width="875" alt="vaccinations:cases" src="https://user-images.githubusercontent.com/112291888/220495154-990532ae-19d7-4cfd-8fd1-c1ac63a63777.png">
 
 ## Future Analysis
 
-
+If we were to continue our analysis of the data we would want to look into the relationship between the various different features as well as what using those features in various models could tell us about the data. To do this we would pull new data from the Act Now COVID API as well as use the data we have already collected to see if there are any differences in our original data trends to more current data. We would run the new data through all of the same processes as the original data and train all of the same models as we originally did during our intial analysis. After this we would explore new models to train with both sets of data to determine if there are indeed new trends in the data. 
 
 ## If We Had More Time
 
+If we had had more time to explore the data we would have wanted to answer several questions that we came up with along this journey, such as;
+
+* What features cause Illinois to be partially included in Cluster 1?
+* What features caused Wyoming, Alabama, and Vermont to have lower case levels?
+
+As well as some other types of analysis we would like to run on the data to explore more in depth how the clustering of the data reveals trends;
+
+* For PCA analysis, normalize the data according to population.
+* Do Spearman’s correlation analysis of the clusters to see if new trends are revealed among the features.
