@@ -1,0 +1,24 @@
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.topnav a:hover {
+    background-color: navy;
+    color: skyblue;
+}
+
+.topnav a.active {
+    background-color: navy;
+    color: skyblue;
+}
